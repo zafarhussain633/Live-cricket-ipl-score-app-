@@ -1,0 +1,84 @@
+/* 
+
+
+
+#teams{
+    background-color: yellow;
+}
+
+
+.target>div>li{
+    float: right;
+    background-color: rgba(255, 0, 0, 0.89);
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+ 
+}
+
+
+
+
+
+
+
+h2{
+    color: rgba(2, 0, 5, 0.616);
+}
+
+
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background: transparent;
+
+}
+button:hover{
+    background: rgba(9, 7, 107, 0.11);
+    cursor: pointer;
+}
+.col-sm{
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+span{
+    display: block;
+    color: green;
+    font-size: 1.2rem;
+    margin-top: 1px;
+}
+#winner{
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 7px;
+}
+i{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.74);
+}
+nav>a>i{
+    font-size: 1.8rem;
+    font-family:cursive;
+}
+#display{
+    background-color: aqua;
+}
+.live{
+     
+     animation: blinker 1s linear infinite;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+}
